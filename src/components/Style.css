@@ -1,0 +1,73 @@
+/* landing page */
+.landing-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+}
+.button {
+  background-color: green !important;
+  color: white !important;
+  padding: 8px !important;
+  width: 20%;
+  height: 70px;
+  border-radius: 50px !important;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 200px;
+}
+
+/* author part */
+.main-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.main {
+  display: flex;
+  padding: 10px;
+  margin: 20px;
+  margin-top: 50px;
+  width: 15%;
+  border: 2px solid grey;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px gray;
+  cursor: pointer;
+}
+.main:hover {
+  background-color: rgba(0, 128, 0, 0.74);
+}
+.main:hover .start {
+  background-color: white;
+  color: green;
+}
+.main:hover .name {
+  color: white;
+}
+
+.start {
+  padding: 15px;
+  border-radius: 50%;
+  color: white;
+  background-color: green;
+  margin-left: 10px;
+}
+
+.name {
+  margin-left: 5rem;
+  padding: 15px;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 1400px) {
+  .main {
+    width: 30%;
+  }
+}
+
+@media (max-width: 800px) {
+  .main {
+    width: 50%;
+  }
+}
