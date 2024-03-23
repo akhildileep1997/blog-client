@@ -30,7 +30,7 @@ function Header() {
   return (
     <AppBar position="sticky" sx={{ backgroundColor: "green" }}>
       <Toolbar>
-        <Typography variant="h5">Blog-App</Typography>
+        <Typography variant="h5">Plot-Point</Typography>
         {token && (
           <Box display="flex" marginLeft={"auto"} marginRight={"auto"}>
             <Tabs value={value} onChange={(e, val) => setValue(val)}>
